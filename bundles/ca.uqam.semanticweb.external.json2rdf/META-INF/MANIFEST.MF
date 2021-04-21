@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JSON2RDF Eclipse-Plug-in
+Bundle-SymbolicName: ca.uqam.semanticweb.external.json2rdf
+Bundle-Version: 1.0.1
+Bundle-Activator: ca.uqam.semanticweb.external.json2rdf.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ca.uqam.semanticweb.external.json2rdf
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-ClassPath: tools/lib/json2rdf-jar-with-dependencies.jar,
+ .
+Export-Package: ca.uqam.semanticweb.external.json2rdf,
+ com.atomgraph.etl.json
+Bundle-Vendor: Université du Québec à Montréal

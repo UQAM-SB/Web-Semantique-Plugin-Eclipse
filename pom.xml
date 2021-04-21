@@ -1,0 +1,97 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ca.uqam.semanticweb</groupId>
+	<version>4.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<properties>
+		<tycho.version>2.2.0</tycho.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-p2-director-plugin</artifactId>
+					<version>${tycho.version}</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<extensions>true</extensions>
+			</plugin>
+			<!--Enable the replacement of the SNAPSHOT version in the final product 
+				configuration -->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-packaging-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<id>package-feature</id>
+						<configuration>
+							<finalName>${project.artifactId}_${unqualifiedVersion}.${buildQualifier}</finalName>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+                        <target>
+                            <artifact>
+                                <groupId>ca.uqam.semanticweb</groupId>
+                                <artifactId>ca.uqam.semanticweb.targetplatform</artifactId>
+                                <version>4.1.0-SNAPSHOT</version>
+                                <classifier>Web-Semantique-Plugin-Eclipse</classifier>
+                            </artifact>
+                        </target>
+					<!-- Optional set the Java version your are using -->
+					<!-- <executionEnvironment>JavaSE-14</executionEnvironment> -->
+					<environments>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<modules>
+		<module>bundles/ca.uqam.semanticweb.external.jena</module>
+		<module>bundles/ca.uqam.semanticweb.external.owlapi</module>
+		<module>bundles/ca.uqam.semanticweb.external.json2rdf</module>
+		<module>bundles/ca.uqam.semanticweb.external.tools</module>
+<!-- 		<module>bundles/ca.uqam.vivo.uqamdev.translator</module> -->
+<!-- 		<module>products/ca.uqam.vivo.uqamdev.rcp</module> -->
+		<module>features/ca.uqam.semanticweb.external.feature</module>
+		<module>releng/ca.uqam.semanticweb.targetplatform</module>
+		<module>releng/ca.uqam.semanticweb.updatesite</module>
+	</modules>
+	<artifactId>Web-Semantique-Plugin-Eclipse</artifactId>
+</project>
