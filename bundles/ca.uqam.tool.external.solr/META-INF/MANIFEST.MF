@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache-Solr Eclipse-Plugin
+Bundle-SymbolicName: ca.uqam.tool.external.solr;singleton:=true
+Bundle-Version: 7.7.2
+Bundle-Activator: ca.uqam.tool.external.solr.Activator
+Bundle-Vendor: Université du Québec à Montréal
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ca.uqam.tool.external.solr
+Bundle-ActivationPolicy: lazy

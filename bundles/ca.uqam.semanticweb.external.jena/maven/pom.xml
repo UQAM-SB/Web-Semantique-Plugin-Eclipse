@@ -13,8 +13,8 @@
 		the specific language governing permissions and limitations under the License. -->
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ca.uqam.semanticweb.external.jena.lib</groupId>
-	<artifactId>ca.uqam.semanticweb.external.jena.lib</artifactId>
+	<groupId>ca.uqam.semanticweb.external.jena</groupId>
+	<artifactId>ca.uqam.semanticweb.external.jena</artifactId>
 	<version>4.0.0</version>
 	<properties>
 		<jena.version>4.0.0</jena.version>
@@ -51,7 +51,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${project.basedir}/../tools/lib-jena</outputDirectory>
+							<outputDirectory>${project.basedir}/../tools/lib</outputDirectory>
 						</configuration>
 					</execution>
 				</executions>
@@ -90,6 +90,30 @@
 			<artifactId>jena-querybuilder</artifactId>
 			<version>${jena.version}</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-csv -->
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-csv</artifactId>
+			<version>3.9.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-fuseki-server -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.jena</groupId> -->
+<!-- 			<artifactId>jena-fuseki-server</artifactId> -->
+<!-- 			<version>${jena.version}</version> -->
+<!-- 		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-fuseki-fulljar -->
+<!-- <dependency> -->
+<!--     <groupId>org.apache.jena</groupId> -->
+<!--     <artifactId>jena-fuseki-fulljar</artifactId> -->
+<!--     <version>4.0.0</version> -->
+<!-- </dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-fuseki-webapp -->
+<!-- <dependency> -->
+<!--     <groupId>org.apache.jena</groupId> -->
+<!--     <artifactId>jena-fuseki-webapp</artifactId> -->
+<!--     <version>4.0.0</version> -->
+<!-- </dependency> -->
+		
 	</dependencies>
 </project>

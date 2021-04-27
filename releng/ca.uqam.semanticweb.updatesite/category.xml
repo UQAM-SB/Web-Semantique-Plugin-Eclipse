@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature id="ca.uqam.semanticweb.external.feature">
+   <feature id="ca.uqam.tool.external.json2rdf.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.kafka.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.owlapi.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.solr.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.tomcat.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.vivohome.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.jena.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.fuseki.feature">
+      <category name="Semantic Web Plugins Tool"/>
+   </feature>
+   <feature id="ca.uqam.tool.external.stardog.feature">
       <category name="Semantic Web Plugins Tool"/>
    </feature>
    <category-def name="Semantic Web Plugins Tool" label="Semantic Web Plugins Tool"/>

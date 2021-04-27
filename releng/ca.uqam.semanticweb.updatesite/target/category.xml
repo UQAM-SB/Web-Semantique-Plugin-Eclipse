@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature id="ca.uqam.semanticweb.external.feature">
-      <category name="Semantic Web Plugins Tool"/>
-   </feature>
-   <category-def name="Semantic Web Plugins Tool" label="Semantic Web Plugins Tool"/>
-</site>

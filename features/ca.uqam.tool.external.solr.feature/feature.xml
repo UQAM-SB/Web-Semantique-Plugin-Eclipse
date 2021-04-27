@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ca.uqam.tool.external.solr.feature"
+      label="Apache-Solr Eclipse-Plugin Feature"
+      version="7.7.2"
+      provider-name="Université du Québec à Montréal">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="ca.uqam.tool.external.solr"
+         download-size="0"
+         install-size="0"
+         version="7.7.2"/>
+
+</feature>

@@ -83,13 +83,28 @@
 		</plugins>
 	</build>
 	<modules>
-		<module>bundles/ca.uqam.semanticweb.external.jena</module>
-		<module>bundles/ca.uqam.semanticweb.external.owlapi</module>
-		<module>bundles/ca.uqam.semanticweb.external.json2rdf</module>
-		<module>bundles/ca.uqam.semanticweb.external.tools</module>
+<!-- 		<module>bundles/ca.uqam.tool.external.tools</module> -->
+		<module>bundles/ca.uqam.tool.external.jena</module>
+		<module>bundles/ca.uqam.tool.external.json2rdf</module>
+		<module>bundles/ca.uqam.tool.external.kafka</module>
+		<module>bundles/ca.uqam.tool.external.owlapi</module>
+		<module>bundles/ca.uqam.tool.external.solr</module>
+		<module>bundles/ca.uqam.tool.external.vivohome</module>
+		<module>bundles/ca.uqam.tool.external.tomcat</module>
+		<module>bundles/ca.uqam.tool.external.fuseki</module>
+		<module>bundles/ca.uqam.tool.external.stardog</module>
+		<module>features/ca.uqam.tool.external.jena.feature</module>
+		<module>features/ca.uqam.tool.external.json2rdf.feature</module>
+		<module>features/ca.uqam.tool.external.kafka.feature</module>
+		<module>features/ca.uqam.tool.external.owlapi.feature</module>
+		<module>features/ca.uqam.tool.external.solr.feature</module>
+		<module>features/ca.uqam.tool.external.vivohome.feature</module>
+		<module>features/ca.uqam.tool.external.tomcat.feature</module>
+		<module>features/ca.uqam.tool.external.fuseki.feature</module>
+		<module>features/ca.uqam.tool.external.stardog.feature</module>
 <!-- 		<module>bundles/ca.uqam.vivo.uqamdev.translator</module> -->
 <!-- 		<module>products/ca.uqam.vivo.uqamdev.rcp</module> -->
-		<module>features/ca.uqam.semanticweb.external.feature</module>
+<!-- 		<module>features/ca.uqam.semanticweb.external.feature</module> -->
 		<module>releng/ca.uqam.semanticweb.targetplatform</module>
 		<module>releng/ca.uqam.semanticweb.updatesite</module>
 	</modules>

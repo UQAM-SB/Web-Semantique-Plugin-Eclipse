@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/caffeine-2.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/checker-qual-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/commons-codec-1.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/commons-io-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/commons-rdf-api-0.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/error_prone_annotations-2.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/failureaccess-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/fluent-hc-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/guava-30.0-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/hppcrt-0.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpclient-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpclient-cache-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpclient-osgi-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpcore-4.4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpcore-nio-4.4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpcore-osgi-4.4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/httpmime-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/j2objc-annotations-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jackson-annotations-2.9.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jackson-core-2.9.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jackson-databind-2.9.10.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/javax.inject-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jcl-over-slf4j-1.7.22.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jsonld-java-0.13.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/jsr305-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-api-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-apibinding-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-compatibility-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-distribution-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-impl-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-oboformat-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-parsers-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-rio-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/owlapi-tools-5.1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-model-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-api-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-binary-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-datatypes-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-hdt-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-jsonld-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-languages-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-n3-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-nquads-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-ntriples-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-rdfjson-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-rdfxml-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-trig-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-trix-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-rio-turtle-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/rdf4j-util-3.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/slf4j-api-1.7.22.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib-owlapi/xz-1.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

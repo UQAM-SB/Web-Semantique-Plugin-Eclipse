@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JSON2RDF Eclipse-Plug-in
-Bundle-SymbolicName: ca.uqam.semanticweb.external.json2rdf
+Bundle-SymbolicName: ca.uqam.semanticweb.external.json2rdf;singleton:=true
 Bundle-Version: 1.0.1
 Bundle-Activator: ca.uqam.semanticweb.external.json2rdf.Activator
 Require-Bundle: org.eclipse.ui,

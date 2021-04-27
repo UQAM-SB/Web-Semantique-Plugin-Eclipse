@@ -1,1 +1,7 @@
 target/
+/ca.uqam.semanticweb.external.solr/
+/ca.uqam.semanticweb.external.jena/
+/ca.uqam.semanticweb.external.json2rdf/
+/ca.uqam.semanticweb.external.owlapi/
+/ca.uqam.semanticweb.external.tools/
+/ca.uqam.semanticweb.external.tomcat/

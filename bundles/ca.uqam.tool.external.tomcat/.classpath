@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="tools/lib/annotations-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina-ant.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina-ha.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina-ssi.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina-storeconfig.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/catalina-tribes.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/ecj-4.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/el-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/jasper.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/jasper-el.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/jaspic-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/jsp-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-coyote.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-dbcp.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-de.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-es.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-jdbc.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-jni.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-util-scan.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/tomcat-websocket.jar"/>
+	<classpathentry exported="true" kind="lib" path="tools/lib/websocket-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

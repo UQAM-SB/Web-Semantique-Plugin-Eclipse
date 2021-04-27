@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/collection-0.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-cli-1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-codec-1.15.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-compress-1.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-csv-1.8.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-io-2.8.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/commons-lang3-3.11.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/httpclient-4.5.13.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/httpclient-cache-4.5.13.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/httpcore-4.4.13.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jackson-annotations-2.12.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jackson-core-2.12.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jackson-databind-2.12.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/javax.annotation-api-1.3.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jcl-over-slf4j-1.7.30.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-arq-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-base-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-core-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-dboe-base-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-dboe-index-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-dboe-storage-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-dboe-transaction-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-dboe-trans-data-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-iri-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-querybuilder-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-rdfconnection-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-shacl-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-shaded-guava-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-tdb2-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jena-tdb-4.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/jsonld-java-0.13.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/libthrift-0.14.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="tools/lib-jena/slf4j-api-1.7.28.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -40,5 +7,39 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="tools/lib/apache-jena-libs-4.0.0.pom"/>
+	<classpathentry kind="lib" path="tools/lib/collection-0.7.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-csv-1.8.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="tools/lib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="tools/lib/httpclient-cache-4.5.13.jar"/>
+	<classpathentry kind="lib" path="tools/lib/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jackson-annotations-2.12.1.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jackson-core-2.12.1.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jackson-databind-2.12.1.jar"/>
+	<classpathentry kind="lib" path="tools/lib/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-arq-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-base-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-core-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-dboe-base-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-dboe-index-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-dboe-storage-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-dboe-transaction-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-dboe-trans-data-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-iri-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-querybuilder-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-rdfconnection-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-shacl-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-shaded-guava-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-tdb2-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jena-tdb-4.0.0.jar"/>
+	<classpathentry kind="lib" path="tools/lib/jsonld-java-0.13.2.jar"/>
+	<classpathentry kind="lib" path="tools/lib/libthrift-0.14.1.jar"/>
+	<classpathentry kind="lib" path="tools/lib/slf4j-api-1.7.28.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
