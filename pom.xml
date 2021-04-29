@@ -88,9 +88,9 @@
 		<module>bundles/ca.uqam.tool.external.json2rdf</module>
 		<module>bundles/ca.uqam.tool.external.kafka</module>
 		<module>bundles/ca.uqam.tool.external.owlapi</module>
-		<module>bundles/ca.uqam.tool.external.solr</module>
+<!-- 		<module>bundles/ca.uqam.tool.external.solr</module> -->
 		<module>bundles/ca.uqam.tool.external.vivohome</module>
-		<module>bundles/ca.uqam.tool.external.tomcat</module>
+<!-- 		<module>bundles/ca.uqam.tool.external.tomcat</module> -->
 		<module>bundles/ca.uqam.tool.external.fuseki</module>
 		<module>bundles/ca.uqam.tool.external.stardog</module>
 		<module>features/ca.uqam.tool.external.jena.feature</module>

@@ -7,6 +7,7 @@ Bundle-Activator: ca.uqam.tool.external.solr.Activator
 Bundle-Vendor: Université du Québec à Montréal
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
+Eclipse-BundleShape: dir
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.solr
 Bundle-ActivationPolicy: lazy

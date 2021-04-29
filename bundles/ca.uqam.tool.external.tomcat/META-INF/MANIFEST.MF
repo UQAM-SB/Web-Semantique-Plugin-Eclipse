@@ -9,6 +9,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.tomcat
+Eclipse-BundleShape: dir
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: tools/lib/annotations-api.jar,
  tools/lib/catalina.jar,

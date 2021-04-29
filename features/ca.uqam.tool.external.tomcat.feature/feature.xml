@@ -17,10 +17,4 @@
       [Enter License Description here.]
    </license>
 
-   <plugin
-         id="ca.uqam.tool.external.tomcat"
-         download-size="0"
-         install-size="0"
-         version="9.0.45"/>
-
 </feature>

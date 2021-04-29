@@ -7,6 +7,7 @@ Bundle-Activator: ca.uqam.tool.external.kafka.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-BundleShape: dir
 Automatic-Module-Name: ca.uqam.tool.external.kafka
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: Université du Québec à Montréal
