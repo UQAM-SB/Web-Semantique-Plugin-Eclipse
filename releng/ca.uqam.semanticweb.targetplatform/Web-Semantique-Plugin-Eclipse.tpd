@@ -2,7 +2,8 @@ target "Web-Semantique-Plugin-Eclipse Target platform"
 
 with requirements
 environment JavaSE-1.8
-location eclipse "http://download.eclipse.org/releases/neon" {
+//location eclipse "http://download.eclipse.org/releases/neon" {
+location eclipse "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/eclipse_neon" {
 	org.eclipse.platform.feature.group [4.6.2.v20161124-1529,4.6.2.v20161124-1529]
 //	org.eclipse.jdt.feature.group [3.12.2.v20161124-1400,3.12.2.v20161124-1400]
 }
@@ -14,3 +15,12 @@ location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/R2016022
 	org.apache.commons.io
 }
 
+location tbcfe-win32 "file://home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.win32.updatesite" {
+	org.topbraidcomposer.common.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
+	org.topbraidcomposer.free.feature.feature.group
+}
+
+//location tbcfe-linux "file://home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.linux.updatesite" {
+//	org.topbraidcomposer.common.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
+//	org.topbraidcomposer.free.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
+//}

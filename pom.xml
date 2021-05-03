@@ -6,7 +6,7 @@
 	<version>4.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
-		<tycho.version>2.2.0</tycho.version>
+		<tycho.version>2.3.0</tycho.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                             </artifact>
                         </target>
 					<!-- Optional set the Java version your are using -->
-					<!-- <executionEnvironment>JavaSE-14</executionEnvironment> -->
+<!-- 					<executionEnvironment>JavaSE-8</executionEnvironment> -->
 					<environments>
 						<environment>
 							<os>linux</os>
@@ -72,11 +72,11 @@
 							<ws>win32</ws>
 							<arch>x86_64</arch>
 						</environment>
-						<environment>
-							<os>macosx</os>
-							<ws>cocoa</ws>
-							<arch>x86_64</arch>
-						</environment>
+<!-- 						<environment> -->
+<!-- 							<os>macosx</os> -->
+<!-- 							<ws>cocoa</ws> -->
+<!-- 							<arch>x86_64</arch> -->
+<!-- 						</environment> -->
 					</environments>
 				</configuration>
 			</plugin>
@@ -84,13 +84,14 @@
 	</build>
 	<modules>
 <!-- 		<module>bundles/ca.uqam.tool.external.tools</module> -->
+<!--        <module>bundles/ca.uqam.tool.external.solr</module> -->
+<!--        <module>bundles/ca.uqam.tool.external.tomcat</module> -->
+
 		<module>bundles/ca.uqam.tool.external.jena</module>
 		<module>bundles/ca.uqam.tool.external.json2rdf</module>
 		<module>bundles/ca.uqam.tool.external.kafka</module>
 		<module>bundles/ca.uqam.tool.external.owlapi</module>
-<!-- 		<module>bundles/ca.uqam.tool.external.solr</module> -->
 		<module>bundles/ca.uqam.tool.external.vivohome</module>
-<!-- 		<module>bundles/ca.uqam.tool.external.tomcat</module> -->
 		<module>bundles/ca.uqam.tool.external.fuseki</module>
 		<module>bundles/ca.uqam.tool.external.stardog</module>
 		<module>features/ca.uqam.tool.external.jena.feature</module>
@@ -102,6 +103,7 @@
 		<module>features/ca.uqam.tool.external.tomcat.feature</module>
 		<module>features/ca.uqam.tool.external.fuseki.feature</module>
 		<module>features/ca.uqam.tool.external.stardog.feature</module>
+        <module>features/ca.uqam.tool.external.tbcfe.feature</module>
 <!-- 		<module>bundles/ca.uqam.vivo.uqamdev.translator</module> -->
 <!-- 		<module>products/ca.uqam.vivo.uqamdev.rcp</module> -->
 <!-- 		<module>features/ca.uqam.semanticweb.external.feature</module> -->

@@ -5,10 +5,11 @@ Bundle-SymbolicName: ca.uqam.tool.external.jena;singleton:=true
 Bundle-Version: 4.0.0
 Bundle-Activator: ca.uqam.tool.external.jena.Activator
 Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime
+ org.eclipse.core.runtime,
+ org.eclipse.core.variables,
+ org.eclipse.core.resources
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.jena
-Bundle-ActivationPolicy: lazy
 Eclipse-BundleShape: dir
 Bundle-ClassPath: tools/lib/collection-0.7.jar,
  tools/lib/commons-cli-1.4.jar,
