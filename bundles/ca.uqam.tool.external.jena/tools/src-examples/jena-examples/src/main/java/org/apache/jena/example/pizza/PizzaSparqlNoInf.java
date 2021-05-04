@@ -75,8 +75,7 @@ public class PizzaSparqlNoInf extends Base
         new PizzaSparqlNoInf().setArgs( args ).run();
     }
 
-
-	public void run() {
+    public void run() {
         OntModel m = getModel();
         loadData( m );
         String prefix = "prefix pizza: <" + PIZZA_NS + ">\n" +
