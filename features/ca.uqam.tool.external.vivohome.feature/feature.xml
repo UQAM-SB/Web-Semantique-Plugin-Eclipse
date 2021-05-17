@@ -17,4 +17,19 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="ca.uqam.tool.external.solr.feature"
+         version="7.7.2"/>
+
+   <includes
+         id="ca.uqam.tool.external.tomcat.feature"
+         version="9.0.45"/>
+
+   <plugin
+         id="ca.uqam.tool.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>

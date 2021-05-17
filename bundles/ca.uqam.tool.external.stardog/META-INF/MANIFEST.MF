@@ -2,14 +2,13 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Stardog Eclipse-Plugin
 Bundle-SymbolicName: ca.uqam.tool.external.stardog;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 7.6.2
 Bundle-Activator: ca.uqam.tool.external.stardog.Activator
 Bundle-Vendor: Université du Québec à Montréal
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.stardog
-Bundle-ActivationPolicy: lazy
 Eclipse-BundleShape: dir
 Bundle-ClassPath: tools/lib/accessors-smart-1.2.jar,
  tools/lib/aggdesigner-algorithm-6.0.jar,

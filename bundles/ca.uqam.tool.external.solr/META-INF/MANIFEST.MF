@@ -10,4 +10,3 @@ Require-Bundle: org.eclipse.ui,
 Eclipse-BundleShape: dir
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.solr
-Bundle-ActivationPolicy: lazy

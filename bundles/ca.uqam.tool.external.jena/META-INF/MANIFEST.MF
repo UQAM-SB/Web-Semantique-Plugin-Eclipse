@@ -4,14 +4,15 @@ Bundle-Name: Apache-Jena Utility Eclipse-Plug-in
 Bundle-SymbolicName: ca.uqam.tool.external.jena;singleton:=true
 Bundle-Version: 3.17.0
 Bundle-Activator: ca.uqam.tool.external.jena.Activator
-Require-Bundle: org.eclipse.ui,
+Require-Bundle: ca.uqam.tool.util,
+ org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.variables,
  org.eclipse.core.resources
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.jena
-Eclipse-BundleShape: dir
 Bundle-Vendor: Université du Québec à Montréal
+Bundle-ActivationPolicy: lazy
 Export-Package: .,
  arq,
  arq.cmdline,
@@ -564,6 +565,7 @@ Export-Package: .,
  tdb.tools,
  tdb2,
  tdb2.cmdline
+Eclipse-BundleShape: dir
 Bundle-ClassPath: tools/lib/collection-0.7.jar,
  tools/lib/commons-cli-1.4.jar,
  tools/lib/commons-codec-1.15.jar,
@@ -588,15 +590,15 @@ Bundle-ClassPath: tools/lib/collection-0.7.jar,
  tools/lib/jena-dboe-base-3.17.0.jar,
  tools/lib/jena-dboe-index-3.17.0.jar,
  tools/lib/jena-dboe-storage-3.17.0.jar,
- tools/lib/jena-dboe-transaction-3.17.0.jar,
  tools/lib/jena-dboe-trans-data-3.17.0.jar,
+ tools/lib/jena-dboe-transaction-3.17.0.jar,
  tools/lib/jena-iri-3.17.0.jar,
  tools/lib/jena-querybuilder-3.17.0.jar,
  tools/lib/jena-rdfconnection-3.17.0.jar,
  tools/lib/jena-shacl-3.17.0.jar,
  tools/lib/jena-shaded-guava-3.17.0.jar,
- tools/lib/jena-tdb2-3.17.0.jar,
  tools/lib/jena-tdb-3.17.0.jar,
+ tools/lib/jena-tdb2-3.17.0.jar,
  tools/lib/jsonld-java-0.13.2.jar,
  tools/lib/libthrift-0.13.0.jar,
  tools/lib/log4j-1.2.17.jar,
@@ -606,9 +608,4 @@ Bundle-ClassPath: tools/lib/collection-0.7.jar,
  tools/lib/slf4j-api-1.7.25.jar,
  tools/lib/slf4j-api-1.7.30.jar,
  tools/lib/slf4j-log4j12-1.7.25.jar,
- tools/lib-src/jena-arq-3.17.0-sources.jar,
- tools/lib-src/jena-cmds-3.17.0-sources.jar,
- tools/lib-src/jena-core-3.17.0-sources.jar,
- tools/lib-src/jena-rdfconnection-3.17.0-sources.jar,
- tools/lib-src/jena-shacl-3.17.0-sources.jar,
- tools/lib-src/jena-tdb-3.17.0-sources.jar
+ .

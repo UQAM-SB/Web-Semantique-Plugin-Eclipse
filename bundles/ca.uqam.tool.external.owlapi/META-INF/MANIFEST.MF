@@ -9,7 +9,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.owlapi
-Bundle-ActivationPolicy: lazy
 Eclipse-BundleShape: dir
 Bundle-ClassPath: tools/lib-owlapi/caffeine-2.8.1.jar,
  tools/lib-owlapi/checker-qual-3.1.0.jar,

@@ -27,7 +27,7 @@
    <feature id="ca.uqam.tool.external.stardog.feature">
       <category name="Semantic Web Plugins Tool"/>
    </feature>
-   <feature id="ca.uqam.tool.external.tbcfe.feature">
+   <feature id="ca.uqam.tool.external.feature">
       <category name="Semantic Web Plugins Tool"/>
    </feature>
    <category-def name="Semantic Web Plugins Tool" label="Semantic Web Plugins Tool"/>

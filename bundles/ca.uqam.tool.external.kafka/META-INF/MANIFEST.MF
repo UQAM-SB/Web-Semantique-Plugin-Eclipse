@@ -9,7 +9,6 @@ Require-Bundle: org.eclipse.ui,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-BundleShape: dir
 Automatic-Module-Name: ca.uqam.tool.external.kafka
-Bundle-ActivationPolicy: lazy
 Bundle-Vendor: Université du Québec à Montréal
 Bundle-ClassPath: tools/libs/activation-1.1.1.jar,
  tools/libs/aopalliance-repackaged-2.6.1.jar,

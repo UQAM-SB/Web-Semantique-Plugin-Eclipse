@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ca.uqam.tool.external.feature"
+      label="External Tools Feature"
+      version="4.1.0"
+      provider-name="Université du Québec à Montréal">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="ca.uqam.tool.external.fuseki.feature"
+         version="4.0.0"/>
+
+   <includes
+         id="ca.uqam.tool.external.jena.feature"
+         version="3.17.0"/>
+
+   <includes
+         id="ca.uqam.tool.external.json2rdf.feature"
+         version="1.0.1"/>
+
+   <includes
+         id="ca.uqam.tool.external.kafka.feature"
+         version="1.12.0"/>
+
+   <includes
+         id="ca.uqam.tool.external.owlapi.feature"
+         version="5.1.17"/>
+
+   <includes
+         id="ca.uqam.tool.external.solr.feature"
+         version="7.7.2"/>
+
+   <includes
+         id="ca.uqam.tool.external.stardog.feature"
+         version="7.6.2"/>
+
+   <includes
+         id="ca.uqam.tool.external.tomcat.feature"
+         version="9.0.45"/>
+
+   <includes
+         id="ca.uqam.tool.external.vivohome.feature"
+         version="1.12.0"/>
+
+   <plugin
+         id="ca.uqam.tool.util"
+         download-size="0"
+         install-size="0"
+         version="4.1.0"
+         unpack="false"/>
+
+</feature>

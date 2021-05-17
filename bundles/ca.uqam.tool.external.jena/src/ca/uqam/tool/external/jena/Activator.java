@@ -1,22 +1,19 @@
 package ca.uqam.tool.external.jena;
 
-import java.io.IOException;
-import java.net.URL;
-
-import org.eclipse.core.runtime.CoreException;
-import org.eclipse.core.runtime.FileLocator;
-import org.eclipse.core.runtime.Platform;
-import org.eclipse.core.variables.IStringVariableManager;
-import org.eclipse.core.variables.IValueVariable;
-import org.eclipse.core.variables.VariablesPlugin;
+import org.eclipse.core.runtime.ILog;
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
+
+
 
 /**
  * The activator class controls the plug-in life cycle
  */
 public class Activator extends AbstractUIPlugin {
+    private  ILog logger=Activator.getDefault().getLog();
+
 
 	// The plug-in ID
 	public static final String PLUGIN_ID = "ca.uqam.tool.external.jena"; //$NON-NLS-1$
@@ -34,6 +31,7 @@ public class Activator extends AbstractUIPlugin {
 	@Override
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
+        logger.log(new Status(IStatus.INFO, Activator.PLUGIN_ID, "Start"));
 		plugin = this;
 	}
 	@Override

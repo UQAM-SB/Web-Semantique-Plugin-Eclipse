@@ -23,4 +23,11 @@
          install-size="0"
          version="3.17.0"/>
 
+   <plugin
+         id="ca.uqam.tool.util"
+         download-size="0"
+         install-size="0"
+         version="4.1.0"
+         unpack="false"/>
+
 </feature>

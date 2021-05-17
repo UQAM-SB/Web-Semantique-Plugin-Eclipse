@@ -2,7 +2,7 @@
 <feature
       id="ca.uqam.tool.external.stardog.feature"
       label="Stardog Eclipse-Plugin Feature"
-      version="1.0.0.qualifier"
+      version="7.6.2"
       provider-name="Université du Québec à Montréal">
 
    <description url="http://www.example.com/description">
@@ -21,6 +21,6 @@
          id="ca.uqam.tool.external.stardog"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="7.6.2"/>
 
 </feature>

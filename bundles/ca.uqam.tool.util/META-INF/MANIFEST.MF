@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tool Utilities
+Bundle-SymbolicName: ca.uqam.tool.util;singleton:=true
+Bundle-Version: 4.1.0
+Bundle-Activator: ca.uqam.tool.util.Activator
+Bundle-Vendor: Université du Québec à Montréal
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.commons.io,
+ org.apache.commons.lang,
+ org.eclipse.core.variables
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ca.uqam.tool.util
+Export-Package: ca.uqam.tool.util

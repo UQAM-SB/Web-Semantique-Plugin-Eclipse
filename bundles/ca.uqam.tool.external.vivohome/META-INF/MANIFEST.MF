@@ -1,13 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Eclipse Plugin for VIVO-HOME Directory
-Bundle-SymbolicName: ca.uqam.tool.external.vivohome
+Bundle-SymbolicName: ca.uqam.tool.external.vivohome;singleton:=true
 Bundle-Version: 1.12.0
 Bundle-Activator: ca.uqam.tool.external.vivohome.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: ca.uqam.tool.external.vivohome
-Bundle-ActivationPolicy: lazy
 Eclipse-BundleShape: dir
 Bundle-Vendor: Université du Québec à Montréal
