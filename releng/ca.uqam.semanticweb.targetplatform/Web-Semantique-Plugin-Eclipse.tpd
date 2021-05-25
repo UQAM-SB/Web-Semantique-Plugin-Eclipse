@@ -5,7 +5,7 @@ environment JavaSE-1.8
 //location eclipse "https://download.eclipse.org/releases/neon/201612211000" {
 //location eclipse_neon "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/eclipse_neon" {
 
-location eclipse_462 "file://home/heon/00-PROJET-UQAM-DEV/01-MIRROR/eclipse_neon_2016" {
+location eclipse_462 "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/eclipse_neon_2016" {
 //location eclipse "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/eclipse_neon" {
 	org.eclipse.platform.feature.group
 //	org.eclipse.jdt.feature.group [3.12.2.v20161124-1400,3.12.2.v20161124-1400]
@@ -27,12 +27,16 @@ location orbit "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/orbit"{
 	org.apache.commons.io
 	
 }
-//location tbcfe-win32 "file://home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.win32.updatesite" {
+location yaml_edito "http://products.reprezen.com/swagedit/latest/"{
+	com.reprezen.swagedit.feature.feature.group
+}
+
+//location tbcfe-win32 "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.win32.updatesite" {
 ////	org.topbraidcomposer.common.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
 ////	org.topbraidcomposer.free.feature.feature.group
 //}
 
-//location tbcfe-linux "file://home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.linux.updatesite" {
+//location tbcfe-linux "file:///home/heon/00-PROJET-UQAM-DEV/01-MIRROR/mirror_tbcfe/ca.uqam.uqamdev.tbcfe.linux.updatesite" {
 //	org.topbraidcomposer.common.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
 //	org.topbraidcomposer.free.feature.feature.group [6.0.1.v20180831-1223R,6.0.1.v20180831-1223R]
 //}

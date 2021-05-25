@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Swagger-ui Eclipse Plugin
+Bundle-SymbolicName: ca.uqam.tool.external.swagger.swagger-ui
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ca.uqam.tool.external.swagger.swagger_ui.Activator
+Bundle-Vendor: Université du Québec à Montréal
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ca.uqam.tool.external.swagger.swagger.ui
+Bundle-ActivationPolicy: lazy

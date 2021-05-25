@@ -6,13 +6,13 @@
 
 	<parent>
 		<groupId>ca.uqam.semanticweb</groupId>
-		<version>4.1.0-SNAPSHOT</version>
+		<version>4.1.0</version>
 		<artifactId>Web-Semantique-Plugin-Eclipse</artifactId>
 		<relativePath>../../</relativePath>
 	</parent>
 
 	<groupId>ca.uqam.semanticweb</groupId>
 	<artifactId>ca.uqam.semanticweb.targetplatform</artifactId>
-	<version>4.1.0-SNAPSHOT</version>
+	<version>4.1.0</version>
 	<packaging>pom</packaging>
 </project>
