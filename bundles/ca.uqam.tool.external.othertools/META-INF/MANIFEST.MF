@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Other Tools
+Bundle-SymbolicName: ca.uqam.tool.external.othertools;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Université du Québec à Montréal
+Bundle-ClassPath: tools/lib/jsoup-1.13.1.jar,
+ tools/lib/okhttp-2.7.5.jar,
+ tools/lib/okio-1.6.0.jar
+Export-Package: ca.uqam.tool.external.jsoop,
+ com.squareup.okhttp,
+ com.squareup.okhttp.internal,
+ com.squareup.okhttp.internal.framed,
+ com.squareup.okhttp.internal.http,
+ com.squareup.okhttp.internal.io,
+ com.squareup.okhttp.internal.tls,
+ okio,
+ org.jsoup,
+ org.jsoup.helper,
+ org.jsoup.internal,
+ org.jsoup.nodes,
+ org.jsoup.parser,
+ org.jsoup.safety,
+ org.jsoup.select

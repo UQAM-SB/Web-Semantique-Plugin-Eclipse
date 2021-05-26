@@ -64,4 +64,11 @@
          version="4.1.0"
          unpack="false"/>
 
+   <plugin
+         id="ca.uqam.tool.external.othertools"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
 </feature>

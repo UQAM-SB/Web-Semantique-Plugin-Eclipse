@@ -117,6 +117,7 @@
         <module>bundles/ca.uqam.tool.external.fuseki</module>
         <module>bundles/ca.uqam.tool.external.swagger.codegen</module>
         <module>bundles/ca.uqam.tool.external.swagger.swagger-ui</module>
+        <module>bundles/ca.uqam.tool.external.othertools</module>
         <module>bundles/ca.uqam.tool.util</module>
         <module>bundles/ca.uqam.tool.external.stardog</module>
         <module>features/ca.uqam.tool.external.feature</module>
