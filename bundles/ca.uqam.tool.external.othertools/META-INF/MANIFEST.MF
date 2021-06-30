@@ -5,9 +5,10 @@ Bundle-SymbolicName: ca.uqam.tool.external.othertools;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: Université du Québec à Montréal
-Bundle-ClassPath: tools/lib/jsoup-1.13.1.jar,
- tools/lib/okhttp-2.7.5.jar,
- tools/lib/okio-1.6.0.jar
+Bundle-ClassPath: tools/lib/okhttp-2.7.5.jar,
+ tools/lib/okio-1.6.0.jar,
+ tools/lib/jsoup-1.13.1.jar
+Require-Bundle: ca.uqam.tool.external.json2rdf;bundle-version="1.0.1"
 Export-Package: ca.uqam.tool.external.jsoop,
  com.squareup.okhttp,
  com.squareup.okhttp.internal,

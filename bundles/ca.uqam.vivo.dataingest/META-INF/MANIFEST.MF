@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tools for Dataingest
+Bundle-SymbolicName: ca.uqam.vivo.dataingest
+Bundle-Version: 1.0.0
+Bundle-Activator: ca.uqam.vivo.dataingest.Activator
+Bundle-Vendor: Université du Québec à Montréal
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ ca.uqam.tool.external.json2rdf;bundle-version="1.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ca.uqam.vivo.dataingest
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/json-20201115.jar,
+ .,
+ lib/json2rdf-jar-with-dependencies.jar
+Export-Package: ca.uqam.vivo.dataingest,
+ ca.uqam.vivo.dataingest.json,
+ org.json

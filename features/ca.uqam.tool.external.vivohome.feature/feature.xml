@@ -32,4 +32,23 @@
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="ca.uqam.vivo.dataingest"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ca.uqam.tool.external.jena"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="ca.uqam.tool.external.json2rdf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
 </feature>
