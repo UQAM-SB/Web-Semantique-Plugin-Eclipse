@@ -1,6 +1,7 @@
 package ca.uqam.tool.util;
 
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.net.URISyntaxException;
@@ -22,6 +23,11 @@ import org.osgi.framework.Bundle;
 
 @SuppressWarnings("restriction")
 public class SystemVar {
+    public static final String WIN32 = Platform.OS_WIN32;
+    public static final String LINUX = Platform.OS_LINUX;
+    public static final String MACOSX = Platform.OS_MACOSX;
+
+
 //    private static  ILog logger=Activator.getDefault().getLog();
 
     private static IStringVariableManager manager;
@@ -83,7 +89,7 @@ public class SystemVar {
     }
 
     public static String getOS() {
-        return System.getProperty("osgi.os");
+        return Platform.getOS();
     }
     public static String getJavaHome() {
         return System.getProperty("java.home");
@@ -92,7 +98,7 @@ public class SystemVar {
         return StringUtils.removeStart(StringUtils.removeEnd(url,"/"),"file:");
     }
     public static String getEclipseHomeVar() {
-        String homeVar = removeFileSuffixToURI(System.getProperty("osgi.install.area"))+"/";
+        String homeVar = removeFileSuffixToURI(System.getProperty("eclipse.home.location"))+"/";
  //       logger.log(new Status(IStatus.INFO, Activator.PLUGIN_ID, " eclipse Home Var = "+homeVar));
         return homeVar;
 
@@ -102,15 +108,17 @@ public class SystemVar {
         Bundle bundle = Platform.getBundle(pluginId);
         URL pluginURL;
         try {
+            System.err.println("setVariablesForBundle pluginId "  + pluginId + " : "+ bundle.getLocation());
             pluginURL = Platform.resolve(bundle.getEntry(File.separator+"tools"+File.separator));
             URL fileURL = FileLocator.toFileURL(pluginURL);
-            System.out.println("setVariablesForBundle pluginId"  + pluginId + " : "+ bundle.getLocation() + " : "+ pluginURL);
             String home_value = fileURL.toURI().getRawPath();
             SystemVar.setValueVariable(homeVar, home_value);
             SystemVar.addSystemVariable(homeSysVar, home_value);
-        } catch (IOException | URISyntaxException | ReflectiveOperationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        } catch (NullPointerException | IOException | URISyntaxException | ReflectiveOperationException e) {
+        	System.err.println( "setVariablesForBundle: pluginId"+ "(" +pluginId+ ") homeVar(" + homeVar + ") homeSysVar(" +homeSysVar+")");
+            e.printStackTrace(System.err);
         }
     }
+
+
 }
